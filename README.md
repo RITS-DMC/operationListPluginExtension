@@ -7,16 +7,16 @@ To begin, we need to clone projects:
  - Clone the repository  inside your plugin project and path for the cloned Repositoryshould be like:- yourPlugin/webapp/operationListExtensionProvider.
  - Open and Identify data-name in your plugin’s index.html file. 
  - Identify the value of the data-name attribute (e.g., rits.custom.plugin.operationlistpluginextension). 
- This will be used in the upcoming search-and-replace operations
+ -  This will be used in the upcoming search-and-replace operations
 
 2. Search and Replace in the Cloned Folder :-
 - Right click on the cloned folder operationlistpluginextensionExtensionProvider. 
 - Select "Find in Folder". - Perform the following search-and-replace operations:
-  Replace 1:
+-  Replace 1:
  - Use this in the Search field: rits.custom.plugin.operationlistpluginextension 
  - Use this in the replace field: with your namespace from the index.html file
  - Click "Replace All Icon". 
-  Replace 2: 
+-  Replace 2: 
  - Use this in the Search field: rits/custom/plugin/operationlistpluginextension 
  - Convert your data-name (e.g., rits.custom.plugin.operationlistpluginextension) to a folder path by replacing dots (.) with slashes (/)(e.g., rits/custom/plugin/operationlistpluginextension). 
  - Use this in the replace field: with your namespace from the index.html file - Click "Replace All Icon".
