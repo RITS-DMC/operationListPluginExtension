@@ -1,7 +1,7 @@
 To begin, we need to clone projects:
 
-operationListExtensionProvider
-util
+- operationListExtensionProvider
+- util
 
 1. Clone the Repository:-
  - Clone the repository  inside your plugin project and path for the cloned Repositoryshould be like:- yourPlugin/webapp/operationListExtensionProvider.
